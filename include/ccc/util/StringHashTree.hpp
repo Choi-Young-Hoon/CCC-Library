@@ -13,9 +13,11 @@ namespace ccc {
 	template <typename DATA_TYPE>
 	class StringHashTree {
 	public:
-		explicit StringHashTree();
-		virtual ~StringHashTree();
-	
+		explicit StringHashTree()
+		: m_pTreeHead(NULL)
+		{}
+		virtual ~StringHashTree()
+		{}
 
 	public: // Functional
 		
@@ -40,8 +42,8 @@ namespace ccc {
 			bool m_bEndFlag;
 			char m_NodeData;
 			
-			TreeNode* m_pLeft,
-					* m_pCenter,
+			TreeNode* m_pLeft;
+					* m_pCenter;
 					* m_pRight;
 		};
 		TreeNode* m_pTreeHead; // Root Node
