@@ -1,5 +1,4 @@
 
-
 all: build
 build:
 	@echo "build $(shell pwd)"
