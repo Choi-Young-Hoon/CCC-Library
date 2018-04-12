@@ -9,14 +9,14 @@ DEFAULT_PATH	Makefile	/^DEFAULT_PATH = $(shell pwd)$/;"	m
 DEL_ITEM	Makefile	/^DEL_ITEM = tags$/;"	m
 DeferFunc	include/ccc/util/DeferFunc.hpp	/^	class DeferFunc {$/;"	c	namespace:ccc
 DeferFunc	src/util/DeferFunc.cpp	/^DeferFunc::DeferFunc(std::function<void(void)>& fn)$/;"	f	class:DeferFunc
-EXAM_DIR	Makefile	/^EXAM_DIR 	  = $(DEFAULT_PATH)\/examples$/;"	m
-LIB_DIR	Makefile	/^LIB_DIR 	  = $(DEFAULT_PATH)\/src$/;"	m
+EXAM_DIR	Makefile	/^EXAM_DIR      = $(DEFAULT_PATH)\/examples$/;"	m
+LIB_DIR	Makefile	/^LIB_DIR       = $(DEFAULT_PATH)\/src$/;"	m
 LIB_DIRS	src/Makefile	/^LIB_DIRS = .\/media 	\\$/;"	m
 LIB_TYPE	Makefile	/^LIB_TYPE = ${LIB_BUILD_TYPE}$/;"	m
 MAKEFLAGS	Makefile	/^MAKEFLAGS = --silent --ignore-errors --no-print-directory$/;"	m
-PUBLIC_CPPFLAGS	Makefile	/^PUBLIC_CPPFLAGS 	  = -W -Wall -std=c++17 -I$(PUBLIC_INCLUDE_DIR)$/;"	m
-PUBLIC_DEBUG_FLAGS	Makefile	/^PUBLIC_DEBUG_FLAGS 	  = -g -ggdb$/;"	m
-PUBLIC_INCLUDE_DIR	Makefile	/^PUBLIC_INCLUDE_DIR 	  = $(DEFAULT_PATH)\/include$/;"	m
+PUBLIC_CPPFLAGS	Makefile	/^PUBLIC_CPPFLAGS    = -W -Wall -std=c++17 -I$(PUBLIC_INCLUDE_DIR)$/;"	m
+PUBLIC_DEBUG_FLAGS	Makefile	/^PUBLIC_DEBUG_FLAGS = -g -ggdb$/;"	m
+PUBLIC_INCLUDE_DIR	Makefile	/^PUBLIC_INCLUDE_DIR = $(DEFAULT_PATH)\/include$/;"	m
 StringHashTree	include/ccc/util/StringHashTree.hpp	/^		explicit StringHashTree()$/;"	f	class:ccc::StringHashTree
 StringHashTree	include/ccc/util/StringHashTree.hpp	/^	class StringHashTree {$/;"	c	namespace:ccc
 TreeInfo	include/ccc/util/StringHashTree.hpp	/^			explicit TreeInfo()$/;"	f	class:ccc::StringHashTree::TreeInfo

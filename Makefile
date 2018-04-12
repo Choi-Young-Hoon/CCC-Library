@@ -1,5 +1,5 @@
 #####################################
-#				EXPORT				#
+#               EXPORT              #
 #####################################
 DEFAULT_PATH = $(shell pwd)
 export DEFAULT_PATH
@@ -7,25 +7,25 @@ export DEFAULT_PATH
 BUILD_BIN = $(DEFAULT_PATH)/bin
 export BUILD_BIN
 
-PUBLIC_INCLUDE_DIR 	  = $(DEFAULT_PATH)/include
-PUBLIC_CPPFLAGS 	  = -W -Wall -std=c++17 -I$(PUBLIC_INCLUDE_DIR)
-PUBLIC_DEBUG_FLAGS 	  = -g -ggdb
+PUBLIC_INCLUDE_DIR = $(DEFAULT_PATH)/include
+PUBLIC_CPPFLAGS    = -W -Wall -std=c++17 -I$(PUBLIC_INCLUDE_DIR)
+PUBLIC_DEBUG_FLAGS = -g -ggdb
 export PUBLIC_CPPFLAGS
 export PUBLIC_DEBUG_FLAGS
 
 
 
 #####################################
-#			PUBLIC VALUE			#
+#           PUBLIC VALUE            #
 #####################################
-LIB_DIR 	  = $(DEFAULT_PATH)/src
+LIB_DIR       = $(DEFAULT_PATH)/src
 UNIT_TEST_DIR = $(DEFAULT_PATH)/unit_test
-EXAM_DIR 	  = $(DEFAULT_PATH)/examples
+EXAM_DIR      = $(DEFAULT_PATH)/examples
 
 
 
 #####################################
-#				ETC					#
+#               ETC                 #
 #####################################
 
 
